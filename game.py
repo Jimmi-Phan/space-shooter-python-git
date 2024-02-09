@@ -92,6 +92,7 @@ while running:
     # Alien
     for alien in aliens:
         alien.move()
+        alien.y += 1
 
     # Spaceship
     if left_pressed:
